@@ -31,7 +31,7 @@
 body{
     display: grid;
     color: white;
-    background-image: url(/imagenes/summonersrift.jpg);
+    background-image: url(imagenes/summonersrift.jpg);
     width: 99%;
     height: 97vh;
 }
