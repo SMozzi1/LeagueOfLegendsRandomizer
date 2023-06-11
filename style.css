@@ -1,4 +1,11 @@
-
+body{
+    display: grid;
+    color: white;
+    background-image: url(imagenes/summonersrift.jpg);
+    background-size: cover;
+    width: 99%;
+    height: 97vh;
+}
 .rol{
     color: black;
     background: transparent;
@@ -28,13 +35,7 @@
     justify-content: space-evenly;
     background-color: transparent;
 }
-body{
-    display: grid;
-    color: white;
-    background-image: url(imagenes/summonersrift.jpg);
-    width: 99%;
-    height: 97vh;
-}
+
 
 .contenido {
     display: flex;
