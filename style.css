@@ -90,3 +90,10 @@ footer{
         color: white;
     }
 }
+
+@media (max-width: 768px) {
+    body{
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+}
