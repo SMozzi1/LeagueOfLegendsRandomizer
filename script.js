@@ -1,5 +1,5 @@
 let toplaneChampions = ["Aatrox", "Akali", "Camille", "Cassiopeia", "Cho'Gath", "Darius", "DR.Mundo", "Fiora", 
-"Gangplank", "Garen", "Gnar", "Gwen", "Hecarim", "Heimerdinger", "Iallaoi", "Irelia", 
+"Gangplank", "Garen", "Gnar", "Gwen", "Hecarim", "Heimerdinger", "Illaoi", "Irelia", 
 "Jax", "Jayce", "K'Sante", "Karma", "Kayle", "Kennen", "Kled", "Lillia", "Lucian", 
 "Malphite", "Maokai", "Mordekaiser", "Nasus", "Nocturne", "Olaf", "Ornn", "Pantheon", 
 "Poppy", "Quinn", "Renekton", "Rengar", "Riven", "Rumble", "Ryze", "Sett", "Shen", "Singed", 
