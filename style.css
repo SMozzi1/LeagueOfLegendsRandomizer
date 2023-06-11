@@ -1,0 +1,91 @@
+
+.rol{
+    color: black;
+    background: transparent;
+}
+.roles{
+    cursor: pointer;
+    background-color: transparent;
+    color: white;
+    height: 20px;
+    width: 134px;
+    border: 1px solid white;
+    font-weight: bold;
+}
+#randomicer{
+    cursor: pointer;
+    background-color: transparent;
+    color: white;
+    height: 50px;
+    width: 100px;
+    border: 1px solid white;
+    font-weight: bold;
+}
+.buttons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: transparent;
+}
+body{
+    display: grid;
+    color: white;
+    background-image: url(/imagenes/summonersrift.jpg);
+    width: 99%;
+    height: 97vh;
+}
+
+.contenido {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 50vh;
+    width: 100%;
+    animation: 1 aparecerTexto 3s;
+}
+
+
+#textDisplay{
+    display: flex;
+    margin: auto;
+    padding: auto;
+    display: block;
+    align-self: center;
+    justify-self: center;
+}
+.resultContent{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#result{
+    display:inline-block;
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 30px;
+}
+
+.introduccion{
+    margin: auto;
+    padding: auto;
+}
+
+footer{
+    display: flex;
+    flex-direction: column;
+    align-self: flex-end;
+}
+
+@keyframes aparecerTexto {
+    0%{
+        opacity: 0%;
+        color: transparent;
+    }
+
+    100%{
+        opacity: 100%;
+        color: white;
+    }
+}
