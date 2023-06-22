@@ -118,7 +118,7 @@ footer{
 
 @media (max-width: 768px) {
     body{
-        background-position: center;
+    background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -127,7 +127,7 @@ footer{
         position: absolute;
 }
     .contentText{
-        font-size: 18px;
+        font-size: 100%;
 }
     .contenido{
         justify-content: center;
