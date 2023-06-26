@@ -276,7 +276,7 @@ function randomizarPersonaje() {
   }
   
   document.querySelector("#randomicer").addEventListener("click", function() {
-    document.querySelector("#championSquare").src = "none";
+    document.querySelector("#championSquare").src = "";
     const { champion, imageSrc } = randomizarPersonaje();
     document.querySelector("#result").textContent = champion;
     document.querySelector("#championSquare").src = imageSrc;
