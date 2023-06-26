@@ -126,6 +126,10 @@ footer{
         color: transparent;
     }
 
+    10%{
+        opacity: 0%;
+    }
+
     100%{
         opacity: 100%;
         color: white;
