@@ -42,10 +42,10 @@ let toplaneSquares = [
   'imagenes/champion-squares-compressed/Ivern.png'
 ];
 
-let jungleChampions = ['Amumu', 'Bel\'Veth', 'Diana', 'Dr. Mundo', 'Ekko', 'Elise', 'Evelynn', 
+let jungleChampions = ['Amumu', 'BelVeth', 'Diana', 'Dr. Mundo', 'Ekko', 'Elise', 'Evelynn', 
 'Fiddlesticks', 'Gragas', 'Graves', 'Hecarim', 'Ivern', 'Jarvan IV', 'Jax', 'Karthus', 'Kayn', 
-'Kha\'Zix', 'Kindred', 'Kled', 'Lee Sin', 'Lillia', 'Master Yi', 'Nidalee', 'Nocturne', 'Nunu', 
-'Olaf', 'Poppy', 'Rammus', 'Rek\'Sai', 'Rengar', 'Sejuani', 'Sett', 'Shaco', 'Shyvana','Skarner',
+'KhaZix', 'Kindred', 'Kled', 'Lee Sin', 'Lillia', 'Master Yi', 'Nidalee', 'Nocturne', 'Nunu', 
+'Olaf', 'Poppy', 'Rammus', 'RekSai', 'Rengar', 'Sejuani', 'Sett', 'Shaco', 'Shyvana','Skarner',
 'Taliyah','Trundle','Udyr','Vi','Viego','Volibear','Warwick','Wukong','Xin Zhao','Zac'];
 
 let jungleSquares =
@@ -74,11 +74,11 @@ let jungleSquares =
 "imagenes/champion-squares-compressed/Zac.png", "imagenes/champion-squares-compressed/Zed.png"];
 
 let midlaneChampions = ['Aatrox', 'Ahri', 'Akali', 'Akshan', 'Anivia', 'Annie', 'Aurelion Sol', 
-'Azir', 'Camille', 'Cassiopeia', 'Cho\'Gath', 'Corki', 'Diana', 'Ekko', 'Fizz', 'Galio', 'Garen', 
-'Gwen', 'Heimerdinger', 'Irelia', 'Ivern', 'Jayce', 'Kassadin','Katarina','LeBlanc','Lillia',
+'Azir', 'Camille', 'Cassiopeia', 'ChoGath', 'Corki', 'Diana', 'Ekko', 'Fizz', 'Galio', 'Garen', 
+'Gwen', 'Heimerdinger', 'Irelia', 'Ivern', 'Jayce', 'Kassadin','Katarina','Leblanc','Lillia',
 'Lissandra','Lucian','Lux','Malphite','Malzahar','Neeko','Nocturne','Nunu','Orianna','Pantheon',
 'Pyke','Qiyana','Renekton','Rumble','Ryze','Swain','Sylas','Syndra','Taliyah','Talon','Twisted Fate',
-'Veigar','Vel\'Koz','Vex','Viktor','Vladimir','Xerath','Yasuo','Yone','Zed','Ziggs','Zilean ','Zoe'];
+'Veigar','VelKoz','Vex','Viktor','Vladimir','Xerath','Yasuo','Yone','Zed','Ziggs','Zilean ','Zoe'];
 
 let midlaneSquares = [
     'imagenes/champion-squares-compressed/Aatrox.png',
@@ -87,7 +87,7 @@ let midlaneSquares = [
   'imagenes/champion-squares-compressed/Akshan.png',
   'imagenes/champion-squares-compressed/Anivia.png',
   'imagenes/champion-squares-compressed/Annie.png',
-  'imagenes/champion-squares-compressed/Aurelion Sol.png',
+  'imagenes/champion-squares-compressed/AurelionSol.png',
   'imagenes/champion-squares-compressed/Azir.png',
   'imagenes/champion-squares-compressed/Camille.png',
   'imagenes/champion-squares-compressed/Cassiopeia.png',
@@ -143,7 +143,7 @@ let midlaneSquares = [
 ];
 
 let adcChampions = ['Aphelios', 'Ashe', 'Caitlyn', 'Corki', 'Draven', 'Ezreal', 'Graves', 'Jhin', 
-'Jinx', 'Kai\'Sa', 'Kalista', 'Kindred', 'Kog\'Maw', 'Lucian', 'Miss Fortune', 'Samira', 'Senna', 
+'Jinx', 'KaiSa', 'Kalista', 'Kindred', 'KogMaw', 'Lucian', 'Miss Fortune', 'Samira', 'Senna', 
 'Quinn', 'Sivir', 'Tristana', 'Twitch', 'Varus','Vayne','Xayah'];
 
 let adcSquares = [
@@ -231,6 +231,7 @@ let supportSquares = [
     'imagenes/champion-squares-compressed/Zyra.png',
   ];
 
+///////////////////////////////////////////////////////////////////////
 
 function detectorDeOpcion() {
     const element = document.querySelector(".roles");
