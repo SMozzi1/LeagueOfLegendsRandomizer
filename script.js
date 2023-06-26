@@ -279,4 +279,8 @@ function randomizarPersonaje() {
     const { champion, imageSrc } = randomizarPersonaje();
     document.querySelector("#result").textContent = champion;
     document.querySelector("#championSquare").src = imageSrc;
+    const resultContent = document.querySelector(".resultContent");
+    resultContent.style.animation = "none";
+    void resultContent.offsetWidth;
+    resultContent.style.animation = "aparecerTexto 2s linear";
   });
