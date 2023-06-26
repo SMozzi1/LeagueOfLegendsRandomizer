@@ -282,5 +282,5 @@ function randomizarPersonaje() {
     const resultContent = document.querySelector(".resultContent");
     resultContent.style.animation = "none";
     void resultContent.offsetWidth;
-    resultContent.style.animation = "aparecerTexto 2s linear";
+    resultContent.style.animation = "aparecerTexto 4s linear";
   });
